@@ -1,0 +1,10 @@
+[package]
+name = "myplugin"
+version = "0.1.0"
+
+[dependencies.fooproject]
+path = ".."
+
+[lib]
+crate-type = ["dylib"]
+plugin = true
